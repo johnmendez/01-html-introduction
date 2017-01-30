@@ -1,7 +1,7 @@
 body {
   margin: 0;
 
-  font-family: Poppins, Helvetica, sans-serif
+  font-family: Poppins, Helvetica, sans-serif;
   color: #333;
 }
 
@@ -10,7 +10,7 @@ ul {
   list-style: none;
 }
 
-img
+img {
   max-width: 100%;
 }
 
@@ -24,20 +24,20 @@ figure {
 
 .app {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 
   min-height: 100vh;
 }
 
 .app__nav {
   background: #222;
-  color: rgb(220,220,230
+  color: rgb(220,220,230)
 
   padding: 1rem;
 }
 
 .app__content {
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .container {
