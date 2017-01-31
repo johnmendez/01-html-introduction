@@ -41,7 +41,7 @@ figure {
 }
 
 .container {
-  max-width 60 rem;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
@@ -65,7 +65,7 @@ figure {
   font-weight: 300;
 }
 
-.nav-list__item
+.nav-list__item {
   margin: 0 0.5rem;
 }
 
@@ -89,7 +89,7 @@ figure {
   background: #b0bec5;
 }
 
-.section--slidey-picture
+.section--slidey-picture {
   position: relative;
   overflow: hidden;
 
@@ -102,7 +102,7 @@ figure {
   display: block;
   position: absolute;
   top: 0;
-  left 0;
+  left: 0;
 
   width: 100%;
   height: 100%;
@@ -112,7 +112,7 @@ figure {
 
   filter: contrast(1.2) saturate(1.35) blur(0.05rem);
   transform: scale(1.03);
-
+}
 
 .section--hero {
   background: #eaeff2;
@@ -135,7 +135,7 @@ figure {
   text-align: center;
 }
 
-.grid
+.grid {
   display: flex;
   flex-wrap: wrap;
 
@@ -146,13 +146,13 @@ figure {
 
 .grid__item {
   flex-basis: calc(100% / 3 - 2rem);
-  flex-grow: 1
+  flex-grow: 1;
 
   margin: 1rem;
 }
 
 .grid__item--quarter {
-  flex-basis: calc(100% / 4 - 2rem;
+  flex-basis: calc(100% / 4 - 2rem);
 }
 
 .card {
@@ -167,7 +167,7 @@ figure {
   box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
-.card__image
+.card__image {
   margin: -0.5rem;
 }
 
@@ -193,7 +193,7 @@ figure {
   margin: 0
 }
 
-.media__right p
+.media__right p {
   margin: 0;
 }
 
@@ -207,9 +207,9 @@ figure {
 
 .circle-icon--primary {
   background: #6362b8;
+}
 
-
-.circle-icon--success
+.circle-icon--success {
   background: #51a852;
 }
 
@@ -217,7 +217,7 @@ figure {
   background #d25555;
 }
 
-.quote
+.quote {
   min-width: 10rem;
 }
 
@@ -229,12 +229,12 @@ figure {
   position: relative
   padding: 0.5rem;
 
-  border-radius 0.1rem;
+  border-radius: 0.1rem;
 
   background: #fff;
 
   filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2));
-
+}
 
 .quote__card::after {
   content: ''
@@ -245,17 +245,17 @@ figure {
   left: 1rem
 
   border: 1rem solid transparent;
-  border-bottom 0;
+  border-bottom: 0;
   border-top: 0.8rem solid #fff;
 }
 
 .quote__text {
-  margin 0;
+  margin: 0;
   font: italic 300 1.2rem Cormorant, serif;
 }
 
 .quote__text::before {
-  content: '“'
+  content: '"'
   font: italic 400 1.4rem Cormorant, serif;
   color: #777;
 }
@@ -272,7 +272,7 @@ figure {
 
 .quote__attribution > * + * {
   margin-left: 1rem;
-
+}
 
 .quote__pic {
   width: 4rem
@@ -282,7 +282,7 @@ figure {
 
 .quote__title {
   font: 1rem Cormorant
-  color #777
+  color: #777
 }
 
 .text-stack * { margin: 0;
@@ -290,6 +290,6 @@ figure {
 
 @media (max-width: 480px) {
   .grid {
-    flex-direction column;
+    flex-direction: column;
   }
 }
