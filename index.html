@@ -2,114 +2,121 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>My Basic Site
+  <title>John Mendez</title>
 
-  Leave these links here...
-  But this should be in a comment...
+  <!--Leave these links here...
+  But this should be in a comment...-->
   <link href="https://fonts.googleapis.com/css?family=Cormorant|Poppins:300,400" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-  <div class="bender">
-    <nav class="bender__nav">
-      <div class="box">
-        <div class="abc">
-          <h1 class="abc__first">Shia LaBeouf</h1>
+  <div class="app">
 
-          <div class="abc__second">
-            <ul class="fry">
-              <li class="fry__thing">
-                <a class="fry__zelda" href="#welcome">Welcome</a>
+<!--Navigation-->
+    <nav class="app__nav">
+      <div class="container">
+        <div class="top-nav">
+          <h1 class="top-nav__left`">The Internet was there when no one else was.</h1>
 
-              <li class="fry__thing">
-                <a class="fry__zelda" href="#about">About</a>
+          <div class="nav">
+            <ul class="nav-list">
+              <li class="hero__item">
+                <a class="nav-list__link" href="#welcome">Welcome</a>
               </li>
-              <li class="fry__thing">
-                <a class="fry__zelda" href="#catchphrases">Quotes</a>
-              </li
-              <li class="fry__thing">
-                <a class="fry__zelda" href="#photos">Photos</a>
+              <li class="hero__item">
+                <a class="nav-list__link" href="#about">About</a>
+              </li>
+              <li class="hero__item">
+                <a class="nav-list__link" href="#quote">Quotes</a>
+              </li>
+              <li class="hero__item">
+                <a class="nav-list__link" href="#photos">Photos</a>
               </li>
             </ul>
-
-        <div>
+          </div>
+        </div>
       </div>
-    </nav>
-    <div class="bender__content">
-      <section class="area-of-control area-of-control--zapp" id="welcome">
-        <div class="box>
-          <div class="zapp">
-            <div class="zapp__thing">
-              <h2 class="zapp__text">This is something interesting about me.</h2>
+    </nav> <!-- Navigation -->
+    <!-- Content -->
+    <div class="app__content">
+      <section class="section section--hero" id="welcome">
+        <div class="container">
+          <div class="hero">
+            <div class="hero__item">
+              <h2 class="hero__text">I want people to know what I'm thinking and its a lot harder than I thought.</h2>
             </div>
-            <div class="zapp__thing">
-              <img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" alt="" class="zapp__img">
+            <div class="hero__item">
+              <img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" alt="" class="hero">
             </div>
           </div>
         </div>
-      </area-of-control>
+      </section>
+    </div>
+      <!-- Interests -->
 
-      <div class="area-of-control">
-        <div class="box">
-          <h2 class="area-of-control__heading">I'm an interesting person!</h2>
+      <div class="section">
+        <div class="container">
+          <h2 class="section__heading">I make a good effort to stand out.</h2>
 
-          <div class="leela">
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="twitter">
-                  <div class="twitter__first">
-                    span class="morty morty--blue">
-                      <span class="fa fa-fw fa-user fa-2x"/span>
+          <div class="grid">
+            <div class="grid__item">
+              <div class="card">
+                <div class="media">
+                  <div class="media__left">
+                    <span class="circle-icon circle-icon--primary">
+                      <span class="fa fa-fw fa-user fa-2x">
                     </span>
-                  </div>
+                  </span>
+                </div>
 
-                  <div class="twitter__second">
-                    <h3>My interest goes here</h3
+                  <div class="media__right">
+                    <h3>Yin and Yang</h3>
 
                     <p>
-                      I'm going to write something about my interests here.
-                      Each blackjack contents should say things about what I like.
+                      My favorite idea has to been that there is balance in many things.
                     </p>
                   </div>
                 </div>
               <div>
             </div>
-
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="twitter">
-                  <div class="twitter__first">
-                    span class="morty morty--green">
-                      <span class=fa fa-fw fa-user fa-2x"></span>
-                    </span>
-                  </div>
-
-                  <div class="twitter__second>
-                    <h3>Wow another interest!</h3>
-
-                    <p>
-                      There are a few different versions of the "circle-icon".
-                      Each of these cards should have a different one!
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="twitter">
-                  <div class="twitter__first">
-                    <span class"morty morty--danger">
+          </div>
+        </div>
+            <div class="grid__item">
+              <div class="card">
+                <div class="media">
+                  <div class="media__left">
+                    <span class="circle-icon circle-icon--success">
                       <span class="fa fa-fw fa-user fa-2x"></span>
                     </span>
                   </div>
 
-                  <div class="twitter__second">
-                    <h3Here's a 3rd interest of mine</h3>
+                  <div class="media__right">
+                    <h3>Video games</h3>
 
                     <p>
-                      These icons should be changed using font-awesome.
+                      I'd love to be on an action filled adventure in the real world, but video games with do. I enjoy playing a video game that involves mastery and quick decisions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid__item">
+              <div class="card">
+                <div class="media">
+                  <div class="media__left">
+                    <span class="circle-icon circle-icon--warning">
+                      <span class="fa fa-fw fa-user fa-2x"></span>
+                    </span>
+                  </div>
+
+                  <div class="media__right">
+                    <h3>Make something good.</h3>
+
+                    <p>
+                      To feel determined in many things I do that take effort.
                     </p>
                   </div>
                 </div>
@@ -117,128 +124,132 @@
             </div>
           </div>
         </div>
-      </div>
+      <!-- Interests -->
 
-      <div class="area-of-control area-of-control--paralax"></div>
+      <!-- Scolling Pic -->
+      <div class="section--slidey-picture"></div>
 
-      <div class="area-of-control" id"catchphrases">
-        <h2 class="area-of-control__heading">My Favorite Quotes</h2>
+      <!-- Quotes Section -->
+      <div class="container" id="catchphrases">
+        <h2 class="section__heading">My Favorite Quotes</h2>
 
-        <div class="box">
-          <div class=leela">
-            <div class="leela__thing leela__thing--forth">
-              <figure class="catchphrase"
-                <div class="catchphrase__blackjack">
-                  <p class="catchphrase__xxx">
-                    I bought a car. Turned out to be an alien robot.
+        <div class="container">
+          <div class="grid">
+            <div class="grid__item grid__item--quarter">
+              <figure class="quote">
+                <div class="quote__card">
+                  <p class="quote__text">
+                    Super Mario Bros. 2 wins that games of the year again!
                   </p>
                 </div>
-                <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                <figcaption class="quote__attribution">
+                  <span><img class="quote__pic" src="https://yt3.ggpht.com/-ftMaOzF43WA/AAAAAAAAAAI/AAAAAAAAAAA/rks3UOR9mGc/s100-c-k-no-mo-rj-c0xffffff/photo.jpg" alt=""></span>
 
-                  div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show">Transformers</p>
+                  <div class="text-stack">
+                    <h4 class="quote__attribution">videogamedunkey</h4>
+                    <p class="quote__title">YouTube Star</p>
                   </div>
                 </figcaption>
               </figure>
             </div>
 
-            <div class="leela__thing leela__thing--forth">
-              <figure class="catchphrase">
-                <div class="catchphrase__blackjack">
-                  <p class="catchphrase__xxx">
-                    I bought a car. Turned out to be an alien robot.
+            <div class="grid__item grid__item--quarter">
+              <figure class="quote">
+                <div class="quote__card">
+                  <p class="quote__text">
+                    OH YEAH I'M MR.KRABS. AAAAAAHHHHHH.
                   </p>
                 </div>
-                <figcaption class="catchphrase__zzz"
-                  <span><img class="catchphrase__yyy" srchttps://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                <figcaption class="quote__attribution">
+                  <span><img class="quote__pic" src="http://i2.kym-cdn.com/entries/icons/square/000/003/821/Screenshot_2015-04-11_at_6.38.38_PM.png" alt=""></span>
 
-                  <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show">Transformers</p>
-
-                </figcaption>
-              </figure>
-            </div>
-
-            <div class="leela__thing leela__thing--forth">
-              <figure class="catchphrase">
-                <div class=catchphrase__blackjack">
-                  <p class="catchphrase__xxx">
-                    I bought a car. Turned out to be an alien robot.
-                  </p>
-                </div>
-                <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
-
-                  <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show"Transformers</p>
+                  <div class="text-stack">
+                    <h4 class="quote__attribution">OH YEAH MR KRABS</h4>
+                    <p class="quote__title">Memes</p>
                   </div>
                 </figcaption>
               </figure>
             </div>
 
-            <div class="leela__thing leela__thing--forth">
-              <figure class="catchphrase">
-                <div class="catchphrase__blackjack"
-                  <p class="catchphrase__xxx">
-                    I bought a car. Turned out to be an alien robot.
+            <div class="grid__item grid__item--quarter">
+              <figure class="quote">
+                <div class="quote__card">
+                  <p class="quote__text">
+                    Hey b0ss!
                   </p>
+                </div>
+                <figcaption class="quote__attribution">
+                  <span><img class="quote__pic" src="http://i1.kym-cdn.com/entries/icons/square/000/012/255/Papa-franku.jpeg" alt=""></span>
 
-                <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
-
-                  <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show">Transformers</p>
+                  <div class="text-stack">
+                    <h4 class="quote__attribution">Papa Franku</h4>
+                    <p class="quote__title">YouTube Star</p>
                   </div>
                 </figcaption>
               </figure>
             </div>
+
+            <div class="grid__item grid__item--quarter">
+              <figure class="quote">
+                <div class="quote__card">
+                  <p class="quote__text">
+                    (He says a lot of bad things.)
+                  </p>
+                </div>
+
+                <figcaption class="quote__attribution">
+                  <span><img class="quote__pic" src="https://yt3.ggpht.com/-Hp2Y60tsv-E/AAAAAAAAAAI/AAAAAAAAAAA/8KsUrd_C2p0/s100-c-k-no-mo-rj-c0xffffff/photo.jpg" alt=""></span>
+                  <div class="text-stack">
+                    <h4 class="quote__attribution">IDubbbz</h4>
+                    <p class="quote__title">YouTube Star</p>
+                  </div>
+                </figcaption>
+              </figure>
           </div>
         </div>
       </div>
-
-      <div class="area-of-control area-of-control__photos" id="photos">
-        <div class="box">
-          <div class="leela">
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="blackjack__photo">
-                  <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="" class="blackjack__photo-pic">
+      </div>
+      </div>
+      </div>
+      <!-- Main -->
+      <div class="section section__photos" id="photos">
+        <div class="container">
+          <div class="grid">
+            <div class="grid__item">
+              <div class="card">
+                <div class="card__image">
+                  <img src="https://i.redd.it/8e01xoh1ax6y.png" alt="" class="card__photo-pic">
                 </div>
 
-                <div class="blackjack__detail">
-                  <h3>Transformers</h3>
-                  <h4>Sam Witwicky</h4>
-                </div>
-              </div>
-            </div>
-
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="blackjack__photo">
-                  <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTIxNDUxNzcyMl5BMl5BanBnXkFtZTcwNTgwOTI3MQ@@._V1_.jpg" alt="" class="blackjack__photo-pic">
-                </div>
-
-                <div class="blackjack__detail">
-                  <h3>Indiana Jones and the Kingdom of the Crystal Skull </h3>
-                  <h4>Mutt Williams</h4>
+                <div class="card__caption">
+                  <h3>The binding of Isaac</h3>
+                  <h4>Edmund McMilen</h4>
                 </div>
               </div>
             </div>
 
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="blackjack__photo">
-                  <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5MTMzMDMzNl5BMl5BanBnXkFtZTcwMzUwNDUzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="" class="blackjack__photo-pic">
+            <div class="grid__item">
+              <div class="card">
+                <div class="card__image">
+                  <img src="http://t0.gstatic.com/images?q=tbn:ANd9GcQxZKPueKzPFNEc1Un4x2TecYop4yrTVArVtfgrNzktMqbfehfv" alt="" class="card__photo-pic">
                 </div>
 
-                <div class="blackjack__detail">
-                  <h3>Eagle Eye</h3>
-                  <h4>Sam Witwicky</h4>
+                <div class="card__caption">
+                  <h3>Split</h3>
+                  <h4>M. Night Shyamalan</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid__item">
+              <div class="card">
+                <div class="card__image">
+                  <img src="http://orig09.deviantart.net/8e45/f/2015/100/0/d/fallout3_williamhenry_by_billpyle-d8p80nj.jpg" alt="" class="card__photo-pic">
+                </div>
+
+                <div class="card__caption">
+                  <h3>Fallout 3</h3>
+                  <h4>Bethesda</h4>
                 </div>
               </div>
             </div>
@@ -247,7 +258,7 @@
       </div>
     </div>
 
-    <footer class="bender__footer">
+    <footer class="app__footer">
 
     </footer>
   </div>
